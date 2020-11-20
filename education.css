@@ -1,0 +1,73 @@
+
+header h1{
+  
+  font-size: xx-large;
+  top: 80px;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.schoolbox{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  word-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  padding: 100px;
+
+}
+
+
+.schoolelement img{
+  height: 150px;
+  width: 150px;
+  position: relative;
+  right: 80px;
+  
+ 
+}
+.schoolelement{
+  width: 400px;
+  height: 200px;
+}
+.schoolelement h3{
+  text-align: center;
+  position: relative;
+  bottom: 150px;
+}
+.schoolelement ul{
+  left: 80px;
+  position: relative;
+  bottom: 150px;
+}
+article h2{
+  position: absolute;
+  left: 20px;
+}
+
+article{
+  position: relative;
+  top: 120px;
+}
+
+.skillsbox{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  word-wrap: wrap;
+  padding: 100px;
+
+}
+
+.skillselement img{
+  height: 110px;
+  width: 110px;
+}
+.skillselement{
+  text-align: center;
+}
+footer{
+  margin-top: 100px;;
+}

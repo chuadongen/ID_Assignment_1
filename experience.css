@@ -1,0 +1,58 @@
+
+.workbox{
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  word-wrap: wrap;
+  flex-direction: row;
+  position: relative;
+  
+
+}
+
+.workelement .logo{
+  height:120px;
+  width: 120px;
+  border-radius: 50%;
+  position: relative;
+  top: 70px;
+}
+
+.workelement{
+  background-image: url(bg.png);
+  height: 700px;
+  width: 300px;
+  margin: 50px;
+
+  text-align: center;
+}
+section h1{
+  text-align: center;
+  text-decoration: underline;
+  font-size: xxx-large;
+  padding-top: 70px;;
+}
+
+.workelement h2{
+  position: relative;
+  top:70px;
+  font-size: xx-large;
+}
+.workelement h3{
+  position: relative;
+  top: 300px;
+  font-size: xx-large;
+}
+section p{
+  text-align: center;
+
+  padding-top: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+  
+}
+.test h2{
+  text-align: right;
+  position: relative;
+  right: 50px;
+}

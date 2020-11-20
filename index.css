@@ -1,0 +1,47 @@
+/* Header section */
+header .profile{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  top: 125px;
+  
+}
+header {
+  text-align: center;
+  position: relative;
+  color: white;
+  font-size: xx-large;
+}
+header .bg{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 350px;
+  z-index: -1;
+}
+header h1{
+  position: relative;
+  top: 100px;
+}
+
+/* Header section */
+
+/* Article section */
+article {
+  
+  
+  margin-top: 200px;
+
+}
+article h2{
+  text-align: center;
+  text-decoration: underline;
+  font-size: xxx-large;
+}
+article p{
+  text-align: center;
+  margin: 120px;
+}
+/* Article section */
