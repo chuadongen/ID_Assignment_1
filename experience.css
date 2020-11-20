@@ -45,11 +45,12 @@ section h1{
 }
 section p{
   text-align: center;
-
+  font-size: larger;
   padding-top: 50px;
   padding-left: 80px;
   padding-right: 80px;
-  
+  font-family: 'Open Sans', sans-serif;
+
 }
 .test h2{
   text-align: right;
