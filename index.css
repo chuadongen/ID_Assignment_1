@@ -53,3 +53,10 @@ article p{
 }
 /* Article section */
 
+@media screen and (max-width:600px){
+  article p{
+    font-size: small;
+    margin: 0;
+    width: 100%;
+  }
+}
