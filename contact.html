@@ -3,18 +3,21 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
-	<title>Contact</title>
+  <title>Contact</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="normalize.css" rel="stylesheet" type="text/css" />
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="contact.css" rel="stylesheet" type="text/css" />
+  <!-- <link href="contact.css" rel="stylesheet" type="text/css" /> -->
 </head>
-<body>
-  <nav>
-    <ul>
-      <li><a  href="index.html">About Me</a></li>
-      <li><a   href="education.html">Education</a></li>
-      <li><a  href="Experience.html">Experience</a></li>
-      <li style="float:right"><a  class="active" href="contact.html">Contact</a></li>
-    </ul>
+<body class="contact">
+  <nav class="topnav" id="myTopnav">
+    <a href="index.html"" >About Me</a>
+    <a href="education.html">Skills</a>
+    <a href="Experience.html">Experience</a>
+    <a href="contact.html"  class="active right">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </nav>
   <section>
     <h1>Contact Me</h1>
@@ -38,6 +41,16 @@
 
 
   </section>
+  <script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
 
 </body>
 

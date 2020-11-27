@@ -4,42 +4,45 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
   <title>Experience</title>
+  <link href="normalize.css" rel="stylesheet" type="text/css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="experience.css" rel="stylesheet" type="text/css" />
+  <!-- <link href="experience.css" rel="stylesheet" type="text/css" /> -->
 </head>
-<body>
-  <nav>
-    <ul>
-      <li><a  href="index.html">About Me</a></li>
-      <li><a   href="education.html">Education</a></li>
-      <li><a class="active" href="Experience.html">Experience</a></li>
-      <li style="float:right"><a href="contact.html">Contact</a></li>
-    </ul>
+<body class="experience">
+  <nav class="topnav" id="myTopnav">
+    <a href="index.html"" >About Me</a>
+    <a href="education.html">Skills</a>
+    <a href="Experience.html" class="active">Experience</a>
+    <a href="contact.html" class="right">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </nav>
  <section>
    <h1  >Work Experience</h1>
    <div class="workbox">
      <div class="workelement">
        
-       <img class="logo" src="mcd.png">
+       <img class="logo" src="Images/Experience/mcd.png" alt="Mcdonalds logo">
        <h2>Mcdonalds</h2>
        <h3>2023-2024</h3>
      </div>
      <div class="workelement">
-      <img class="logo" src="kfc.png">
+      <img class="logo" src="Images/Experience/kfc.png" alt="KFC logo">
 
       <h2>KFC</h2>
       <h3>2024-2025</h3>
     </div>
     <div class="workelement">
-      <img class="logo" src="jollibee.jpg">
+      <img class="logo" src="Images/Experience/jollibee.jpg" alt="Jollibee logo">
       <h2>Jolibee</h2>
       <h3>2025-2026</h3>
     </div>
     <div class="workelement">
-      <img class="logo"src="ljs.jpg">
+      <img class="logo"src="Images/Experience/ljs.jpg" alt="Long John Silvers logo">
       <h2>LJS</h2>
       <h3>2027-2028</h3>
     </div>
@@ -60,21 +63,31 @@
     <div class="flexbox">
       <span class="dot" >
         <a href="https://www.instagram.com/accounts/login/"  target="_blank">
-          <img src="instagram.png"  alt="Instagram">
+          <img src="images/Footer/instagram.png"  alt="Instagram">
         </a>
       </span>
       <span class="dot">
         <a href="https://www.linkedin.com/in/chua-dong-en-a615961a9/"  target="_blank">
-          <img src="linkedin.png" alt="linkedin">
+          <img src="Images/Footer/linkedin.png" alt="Linkedin">
         </a>
       </span>
       <span class="dot">
         <a href="contact.html">
-          <img src="email.png" alt="Email">
+          <img src="images/Footer/email.png" alt="Email">
         </a>
       </span>
     </div>
   </footer>
+  <script>
+    function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
 </body>
 
 </html>
