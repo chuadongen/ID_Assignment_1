@@ -2,7 +2,7 @@
 body{
   margin: 0;
   /* The image used */
-  background-image: url(images/background.jpg);
+  background-image: url(Images/background.jpg);
 
   /* Set a specific height */
   height: 100%;
@@ -156,7 +156,7 @@ footer .flexbox{
 
   color: white;
   font-size: xx-large;
-  background-image: url('images/Index/bg.jpg') ;
+  background-image: url('Images/Index/bg.jpg') ;
   background-size: cover;
   height: 300px;
 }
