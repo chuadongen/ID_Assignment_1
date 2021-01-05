@@ -19,6 +19,8 @@ This section is also where you would share links to any wireframes, mockups, dia
 These files should themselves either be included as a pdf file in the project itself (in an separate directory)
 Include the Adobe XD wireframe as a folder. You can include the XD share url. 
 
+## Github Link
+https://chuadongen.github.io/ID_Assignment_1/
 ## Features
  
 ### Existing Features
